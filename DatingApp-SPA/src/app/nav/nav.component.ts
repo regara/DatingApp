@@ -18,7 +18,7 @@ export class NavComponent implements OnInit {
     this.authService.login(this.model).subscribe(next => {
       console.log('Logged in Succesfully');
     }, error => {
-      console.log('Error: ' + error);
+      console.log(error);
     });
   }
 
@@ -29,7 +29,7 @@ export class NavComponent implements OnInit {
 
   logout() {
     localStorage.removeItem('token');
-    console.log('logged out');
+    console.log('Logged out Succesfully');
   }
 
 }
