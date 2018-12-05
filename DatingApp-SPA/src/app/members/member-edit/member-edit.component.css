@@ -1,0 +1,24 @@
+.img-thumbnail {
+    margin: 1.5rem auto;
+    width: 85%;
+    height: 85%;
+}
+
+.card-body {
+    padding: 0 1.5625rem;
+}
+
+.card-footer {
+    padding: 0.6rem 0.9rem;
+    background-color: #fff;
+    border-top: none;
+}
+
+.alert-info {
+    color: #000;
+    background-color: #ff471a;
+}
+
+.alert-info p {
+    margin-bottom: 0;
+}
