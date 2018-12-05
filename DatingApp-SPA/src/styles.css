@@ -4,3 +4,52 @@
 @import '../node_modules/alertifyjs/build/css/alertify.min.css';
 @import '../node_modules/alertifyjs/build/css/themes/bootstrap.min.css';
 @import '../node_modules/font-awesome/css/font-awesome.min.css';
+
+
+
+/* CUSTOM CSS STYLES */
+.tab-panel {
+    border: .05rem solid #ddd;
+    padding: .7rem;
+    border-radius: .3rem;
+}
+
+.nav-tabs > li.open, .member-tabset > .nav-tabs > li:hover {
+    border-bottom: .3rem solid #fbcdcf;
+}
+
+.member-tabset > .nav-tabs > li.open > a, .member-tabset > .nav-tabs > li:hover > a {
+    border: 0;
+    background: none !important;
+    color: #333;
+}
+
+.member-tabset > .nav-tabs > li.open > a > i, .member-tabset > .nav-tabs > li:hover > a > i {
+    color: #a6a6a6;
+}
+
+.member-tabset > .nav-tabs > li.open .dropdown-menu, .member-tabset > .nav-tabs > li:hover .dropdown-menu {
+    margin-top: 0;
+}
+
+.member-tabset > .nav-tabs > li.active {
+    border-bottom: .3rem solid #E95420;
+    position: relative;
+}
+
+.member-tabset > .nav-tabs > li.active > a {
+    border: 0 !important;
+    color: #333;
+}
+
+.member-tabset > .nav-tabs > li.active > a > i {
+    color: #404040;
+}
+
+.member-tabset > .tab-content {
+    margin-top: .2rem;
+    background-color: #fff;
+    border: 0;
+    border-top: .05rem solid #eee;
+    padding: .9rem 0;
+}
